@@ -61,6 +61,10 @@ int main()
     {
         cout << e.what() << endl;
     }
+    catch (std::exception& e)
+    {
+        cout << e.what() << endl;
+    }
     cout << "++++++++++++++++++++++++++++++++++" << endl;
     cout << "1 + 1 = " << binops["+"](1, 1) << endl;
     cout << "1 - 2 = " << binops["-"](1, 2) << endl;
